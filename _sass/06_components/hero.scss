@@ -1,0 +1,99 @@
+.hero_block{
+  background: url('../assets/images/blackpanther.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin: 0;
+  padding: 15%;
+  position: relative;
+  width: 100%;
+}
+
+.hero_heading {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+.search{
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  left: 7%;
+  top: 70%;
+  width: 80%;
+
+  @media (min-width: 600px)
+  {
+    top: 70%;
+  }
+}
+
+.search_bar {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.search_button {
+  background: $color-brand;
+  border-radius: 0 5px 5px 0;
+  border-style: none;
+  height: 40px;
+  width: 15%;
+  float: right;
+  outline: none;
+
+  // @media (min-width: 550px) {
+  //   width: 40px;
+  // }
+}
+
+.search_term {
+  border-radius: 5px 0 0 5px;
+  color: $color-primary;
+  float: left;
+  height: 40px;
+  width: 85%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  opacity: 50%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
