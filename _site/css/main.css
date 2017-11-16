@@ -728,7 +728,44 @@ header.post-header {
 .news_1 {
   background: url("../assets/images/louis.png");
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: cover;
+  background-position: center; }
+
+.popular_1 {
+  background: url("../assets/images/grandtour.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.popular_2 {
+  background: url("../assets/images/strangerthings.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.popular_3 {
+  background: url("../assets/images/broadcity.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.popular_4 {
+  background: url("../assets/images/lore.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.popular_5 {
+  background: url("../assets/images/narcos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.popular_6 {
+  background: url("../assets/images/handmaidstale.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 .block_thirds,
 .block_quarters {
@@ -757,6 +794,33 @@ header.post-header {
       width: 32.72%;
       height: 400px; } }
 
+.block_item--secondary {
+  display: inline-block;
+  height: 200px;
+  margin: 0 auto;
+  width: 100%; }
+  @media (min-width: 600px) {
+    .block_item--secondary {
+      display: inline-block;
+      width: 32.72%;
+      height: 200px; } }
+
+.block_item--popular {
+  display: none; }
+  @media (min-width: 600px) {
+    .block_item--popular {
+      display: inline-block;
+      width: 32.72%;
+      height: 400px; } }
+
+.block_item--title, .supplement_popular {
+  display: none; }
+  @media (min-width: 600px) {
+    .block_item--title, .supplement_popular {
+      display: inline-block;
+      margin: 0 auto;
+      width: 32.72%; } }
+
 @media (max-width: 600px) {
   .block_item--primary:nth-child(2), .block_item--primary:nth-child(3) {
     display: none; } }
@@ -764,6 +828,13 @@ header.post-header {
   .block_item--poster:nth-child(2), .block_item--poster:nth-child(3),
   .block_item--poster:nth-child(4) {
     display: none; } }
+.supplement_popular {
+  display: none; }
+  @media (min-width: 600px) {
+    .supplement_popular {
+      display: inline-block;
+      width: 32.72%; } }
+
 .module {
   width: 100%;
   border: solid blue 2px; }
@@ -791,6 +862,9 @@ img {
 
 .ticker {
   height: 400px; }
+  @media (max-width: 500px) {
+    .ticker {
+      height: 300px; } }
 
 .ticker_block--primary {
   height: 100%;

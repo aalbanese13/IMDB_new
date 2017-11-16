@@ -9,3 +9,16 @@
   overflow: scroll;
   position: relative;
 }
+
+@mixin poster {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin title_thirds {
+  @media (min-width: 600px) {
+    display: inline-block;
+    width: 32.72%;
+    }
+  }

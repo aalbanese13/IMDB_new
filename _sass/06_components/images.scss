@@ -1,54 +1,69 @@
 .explore_1 {
   background: url('../assets/images/guncrazy.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include poster;
 }
 
 .explore_2 {
   background: url('../assets/images/basicinstinct.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include poster;
 }
 
 .explore_3 {
   background: url('../assets/images/chocolat.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include poster;
 }
 
 .new_1 {
   background: url('../assets/images/murder.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include poster;
 }
 
 .new_2 {
   background: url('../assets/images/thelma.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include poster;
 }
 
 .new_3 {
   background: url('../assets/images/thumper.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include poster;
 }
 
 .new_4 {
   background: url('../assets/images/three.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include poster;
 }
 
 .news_1 {
   background: url('../assets/images/louis.png');
-  background-repeat: no-repeat;
-  background-size: contain;
+  @include poster;
+}
+
+.popular_1 {
+  background: url('../assets/images/grandtour.jpg');
+  @include poster;
+}
+
+.popular_2 {
+  background: url('../assets/images/strangerthings.jpg');
+  @include poster;
+}
+
+.popular_3 {
+  background: url('../assets/images/broadcity.jpg');
+  @include poster;
+}
+
+.popular_4 {
+  background: url('../assets/images/lore.jpg');
+  @include poster;
+}
+
+.popular_5 {
+  background: url('../assets/images/narcos.jpg');
+  @include poster;
+}
+
+.popular_6 {
+  background: url('../assets/images/handmaidstale.jpg');
+  @include poster;
 }
