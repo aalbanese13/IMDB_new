@@ -3,6 +3,11 @@
   border: solid blue 2px;
 }
 
+.side_module {
+  @extend .module;
+  height: 550px;
+  overflow: scroll;
+}
 
 img {
   max-width: 100%;

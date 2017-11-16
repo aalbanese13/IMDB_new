@@ -1,0 +1,33 @@
+.block_item--title {
+  display: none;
+
+  @media (min-width: 600px) {
+    display: inline-block;
+    margin: 0 auto;
+    width: 32.72%;
+  }
+}
+
+.supplement_popular {
+  @extend .block_item--title;
+  display: none;
+  @include title_thirds;
+}
+
+
+.block_item--tertiary {
+  height: 150px;
+  width: 100%;
+}
+
+.block_poster {
+  height: 150px;
+  width: 30%;
+  float: left;
+}
+
+.block_detail {
+  height: 150px;
+  width: 70%;
+  float: right;
+}

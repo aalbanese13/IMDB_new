@@ -53,16 +53,6 @@
   }
 }
 
-.block_item--title {
-  display: none;
-
-  @media (min-width: 600px) {
-    display: inline-block;
-    margin: 0 auto;
-    width: 32.72%;
-  }
-}
-
 // Hide images after first
 @media (max-width: 600px) {
   .block_item--primary:nth-child(2), .block_item--primary:nth-child(3){
@@ -77,9 +67,3 @@
   }
 }
 //
-
-.supplement_popular {
-  @extend .block_item--title;
-  display: none;
-  @include title_thirds;
-}

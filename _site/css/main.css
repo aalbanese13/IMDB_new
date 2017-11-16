@@ -670,7 +670,7 @@ header.post-header {
   border: solid blue 2px; }
   @media (min-width: 800px) {
     .main {
-      width: 75%;
+      width: 70%;
       float: left; } }
 
 .sidebar {
@@ -679,7 +679,7 @@ header.post-header {
     .sidebar {
       display: inline-block;
       border: solid red 2px;
-      width: 25%;
+      width: 30%;
       float: right;
       height: 100%; } }
 
@@ -767,6 +767,24 @@ header.post-header {
   background-size: cover;
   background-position: center; }
 
+.top10_1 {
+  background: url("../assets/images/okja.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.top10_2 {
+  background: url("../assets/images/callme.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.top10_3 {
+  background: url("../assets/images/okja.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
 .block_thirds,
 .block_quarters {
   width: 100%;
@@ -813,14 +831,6 @@ header.post-header {
       width: 32.72%;
       height: 400px; } }
 
-.block_item--title, .supplement_popular {
-  display: none; }
-  @media (min-width: 600px) {
-    .block_item--title, .supplement_popular {
-      display: inline-block;
-      margin: 0 auto;
-      width: 32.72%; } }
-
 @media (max-width: 600px) {
   .block_item--primary:nth-child(2), .block_item--primary:nth-child(3) {
     display: none; } }
@@ -828,16 +838,13 @@ header.post-header {
   .block_item--poster:nth-child(2), .block_item--poster:nth-child(3),
   .block_item--poster:nth-child(4) {
     display: none; } }
-.supplement_popular {
-  display: none; }
-  @media (min-width: 600px) {
-    .supplement_popular {
-      display: inline-block;
-      width: 32.72%; } }
-
-.module {
+.module, .side_module {
   width: 100%;
   border: solid blue 2px; }
+
+.side_module {
+  height: 550px;
+  overflow: scroll; }
 
 img {
   max-width: 100%; }
@@ -885,6 +892,35 @@ img {
 
 .ticker_item {
   display: block; }
+
+.block_item--title, .supplement_popular {
+  display: none; }
+  @media (min-width: 600px) {
+    .block_item--title, .supplement_popular {
+      display: inline-block;
+      margin: 0 auto;
+      width: 32.72%; } }
+
+.supplement_popular {
+  display: none; }
+  @media (min-width: 600px) {
+    .supplement_popular {
+      display: inline-block;
+      width: 32.72%; } }
+
+.block_item--tertiary {
+  height: 150px;
+  width: 100%; }
+
+.block_poster {
+  height: 150px;
+  width: 30%;
+  float: left; }
+
+.block_detail {
+  height: 150px;
+  width: 70%;
+  float: right; }
 
 .hero_block {
   background: url("../assets/images/blackpanther.jpg");
