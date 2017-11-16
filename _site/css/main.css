@@ -633,13 +633,19 @@ small {
 html,
 body {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  background-color: #d1d1d1; }
 
 .o-main {
   margin: 0 auto;
   max-width: 90em;
   padding: 0.75rem;
   width: 100%; }
+
+.wrapper {
+  background-color: #FFF;
+  max-width: 1200px;
+  margin: 0 auto; }
 
 .c-header {
   border: 1px solid #C5C5C5; }
@@ -719,6 +725,11 @@ header.post-header {
   background-size: cover;
   background-position: center; }
 
+.news_1 {
+  background: url("../assets/images/louis.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
 .block_thirds,
 .block_quarters {
   width: 100%;
@@ -733,13 +744,7 @@ header.post-header {
     .block_item--poster {
       display: inline-block;
       width: 24.3%;
-      height: 500px; } }
-  @media (min-width: 600px) and (min-width: 1200px) {
-    .block_item--poster {
-      height: 600px; } }
-  @media (min-width: 600px) and (min-width: 1600px) {
-    .block_item--poster {
-      height: 1000px; } }
+      height: 400px; } }
 
 .block_item--primary {
   display: inline-block;
@@ -750,13 +755,7 @@ header.post-header {
     .block_item--primary {
       display: inline-block;
       width: 32.72%;
-      height: 500px; } }
-  @media (min-width: 600px) and (min-width: 1200px) {
-    .block_item--primary {
-      height: 600px; } }
-  @media (min-width: 600px) and (min-width: 1600px) {
-    .block_item--primary {
-      height: 1000px; } }
+      height: 400px; } }
 
 @media (max-width: 600px) {
   .block_item--primary:nth-child(2), .block_item--primary:nth-child(3) {
@@ -790,17 +789,28 @@ img {
   text-align: center;
   margin: 30% 5% 5% 5%; }
 
+.ticker {
+  height: 400px; }
+
 .ticker_block--primary {
-  width: 60%;
-  background-color: blue;
-  height: 500px;
-  float: left; }
+  height: 100%;
+  width: 100%; }
+  @media (min-width: 600px) {
+    .ticker_block--primary {
+      float: left;
+      width: 60%; } }
 
 .ticker_block--secondary {
-  width: 40%;
-  background-color: red;
-  height: 500px;
-  float: right; }
+  display: none; }
+  @media (min-width: 600px) {
+    .ticker_block--secondary {
+      display: inline-block;
+      float: right;
+      height: 100%;
+      width: 40%; } }
+
+.ticker_item {
+  display: block; }
 
 .hero_block {
   background: url("../assets/images/blackpanther.jpg");

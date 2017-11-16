@@ -13,15 +13,11 @@
   @media (min-width: 600px) {
     display: inline-block;
     width: 24.3%;
-    height: 500px;
+    height: 400px;
 
-    @media (min-width: 1200px){
-      height: 600px;
-      }
-
-    @media (min-width: 1600px){
-      height: 1000px;
-      }
+    // @media (min-width: 1200px){
+    //   height: 500px;
+    //   }
   }
 }
 
@@ -34,15 +30,11 @@
   @media (min-width: 600px) {
     display: inline-block;
     width: 32.72%;
-    height: 500px;
+    height: 400px;
 
-    @media (min-width: 1200px){
-      height: 600px;
-      }
-
-    @media (min-width: 1600px){
-      height: 1000px;
-      }
+    // @media (min-width: 1200px){
+    //   height: 500px;
+    //   }
   }
 }
 

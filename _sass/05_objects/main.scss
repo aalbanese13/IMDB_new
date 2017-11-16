@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background-color: #d1d1d1;
 }
 
 .o-main {
@@ -9,4 +10,10 @@ body {
   max-width: $content-width;
   padding: $spacing-small;
   width: 100%;
+}
+
+.wrapper {
+  background-color: $color-white;
+  max-width: 1200px;
+  margin: 0 auto;
 }

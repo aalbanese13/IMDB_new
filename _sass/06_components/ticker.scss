@@ -1,13 +1,30 @@
+.ticker {
+  height: 400px;
+}
+
 .ticker_block--primary {
-  width: 60%;
-  background-color: blue;
-  height: 500px;
-  float: left;
+  // background-color: blue;
+  height: 100%;
+  width: 100%;
+
+  @media (min-width: 600px){
+    float: left;
+    width: 60%;
+  }
 }
 
 .ticker_block--secondary {
-  width: 40%;
-  background-color: red;
-  height: 500px;
-  float: right;
+  display: none;
+
+  @media (min-width: 600px) {
+    // background-color: red;
+    display: inline-block;
+    float: right;
+    height: 100%;
+    width: 40%;
+    }
+}
+
+.ticker_item {
+  display: block;
 }
