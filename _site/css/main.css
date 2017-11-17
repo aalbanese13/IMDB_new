@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Oswald:500");
+@fa-font-path : "../assets/icons";
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -405,7 +407,7 @@ label,
 legend {
   color: #3E4045;
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 2.2; }
 
 label {
@@ -602,28 +604,31 @@ html {
 
 h1 {
   color: #3E4045;
-  font-size: 1.25rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.25rem;
   font-weight: 300;
-  line-height: 1.25; }
+  line-height: 1.25;
+  text-transform: uppercase; }
 
 h2 {
   color: #3E4045;
-  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
   font-weight: 300;
-  line-height: 1.25; }
+  line-height: 1.25;
+  text-transform: uppercase; }
 
 h3 {
   color: #1A78A1;
-  font-family: "Helvetica Bold", Arial, sans-serif;
-  font-size: 0.7rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
   font-weight: normal;
-  letter-spacing: 1px;
-  margin: 0;
-  text-transform: uppercase; }
+  line-height: 1.25;
+  margin: 0; }
 
 p {
-  color: #1A78A1;
-  font-size: 0.8rem;
+  color: #3E4045;
+  font-size: 0.9rem;
   margin: 0; }
 
 small {
@@ -666,8 +671,7 @@ header.post-header {
 
 .main {
   width: 100%;
-  height: 100%;
-  border: solid blue 2px; }
+  height: 100%; }
   @media (min-width: 800px) {
     .main {
       width: 70%;
@@ -678,7 +682,6 @@ header.post-header {
   @media (min-width: 800px) {
     .sidebar {
       display: inline-block;
-      border: solid red 2px;
       width: 30%;
       float: right;
       height: 100%; } }
@@ -780,7 +783,7 @@ header.post-header {
   background-position: center; }
 
 .top10_3 {
-  background: url("../assets/images/okja.jpg");
+  background: url("../assets/images/shawshank.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -831,6 +834,23 @@ header.post-header {
       width: 32.72%;
       height: 400px; } }
 
+.block_item--tertiary {
+  height: 150px;
+  width: 100%;
+  margin-bottom: 20px; }
+
+.block_poster {
+  height: 150px;
+  width: 30%;
+  float: left; }
+
+.block_detail {
+  height: 150px;
+  width: 70%;
+  float: right;
+  padding: 10px;
+  overflow: hidden; }
+
 @media (max-width: 600px) {
   .block_item--primary:nth-child(2), .block_item--primary:nth-child(3) {
     display: none; } }
@@ -839,12 +859,18 @@ header.post-header {
   .block_item--poster:nth-child(4) {
     display: none; } }
 .module, .side_module {
-  width: 100%;
-  border: solid blue 2px; }
+  padding: 3%;
+  width: 100%; }
 
 .side_module {
+  padding: 5%;
   height: 550px;
   overflow: scroll; }
+
+hr.style6 {
+  border-top: 1px dotted #E7BA00;
+  padding-left: 50px;
+  padding-right: 50px; }
 
 img {
   max-width: 100%; }
@@ -871,7 +897,7 @@ img {
   height: 400px; }
   @media (max-width: 500px) {
     .ticker {
-      height: 300px; } }
+      height: 350px; } }
 
 .ticker_block--primary {
   height: 100%;
@@ -888,10 +914,17 @@ img {
       display: inline-block;
       float: right;
       height: 100%;
-      width: 40%; } }
+      width: 40%;
+      overflow: auto; } }
 
 .ticker_item {
-  display: block; }
+  display: block;
+  margin: 0 10px 20px 10px; }
+
+.ticker_item--main .headline {
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 20px; }
 
 .block_item--title, .supplement_popular {
   display: none; }
@@ -901,6 +934,10 @@ img {
       margin: 0 auto;
       width: 32.72%; } }
 
+.supplement, .supplement_popular {
+  padding: 10px 0 10px 0;
+  font-weight: bolder; }
+
 .supplement_popular {
   display: none; }
   @media (min-width: 600px) {
@@ -908,19 +945,9 @@ img {
       display: inline-block;
       width: 32.72%; } }
 
-.block_item--tertiary {
-  height: 150px;
-  width: 100%; }
-
-.block_poster {
-  height: 150px;
-  width: 30%;
-  float: left; }
-
-.block_detail {
-  height: 150px;
-  width: 70%;
-  float: right; }
+.hero_heading {
+  color: #FFF;
+  text-shadow: 2px 2px 2px #3E4045; }
 
 .hero_block {
   background: url("../assets/images/blackpanther.jpg");

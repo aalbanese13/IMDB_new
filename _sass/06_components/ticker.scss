@@ -2,7 +2,7 @@
   height: 400px;
 
   @media (max-width:500px) {
-    height: 300px;
+    height: 350px;
   }
 }
 
@@ -26,9 +26,17 @@
     float: right;
     height: 100%;
     width: 40%;
+    overflow: auto;
     }
 }
 
 .ticker_item {
   display: block;
+  margin: 0 10px 20px 10px;
+}
+
+.ticker_item--main .headline{
+  display: block;
+  font-size: $font-size-heading-medium;
+  margin-top: 20px;
 }

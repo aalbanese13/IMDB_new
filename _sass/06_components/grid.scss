@@ -53,6 +53,26 @@
   }
 }
 
+.block_item--tertiary {
+  height: 150px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.block_poster {
+  height: 150px;
+  width: 30%;
+  float: left;
+}
+
+.block_detail {
+  height: 150px;
+  width: 70%;
+  float: right;
+  padding: 10px;
+  overflow: hidden;
+}
+
 // Hide images after first
 @media (max-width: 600px) {
   .block_item--primary:nth-child(2), .block_item--primary:nth-child(3){

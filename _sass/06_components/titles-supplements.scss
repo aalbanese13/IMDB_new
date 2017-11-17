@@ -8,26 +8,19 @@
   }
 }
 
+.supplement {
+  padding: 10px 0 10px 0;
+  font-weight: bolder;
+}
+
 .supplement_popular {
+  @extend .supplement;
   @extend .block_item--title;
   display: none;
   @include title_thirds;
 }
 
-
-.block_item--tertiary {
-  height: 150px;
-  width: 100%;
-}
-
-.block_poster {
-  height: 150px;
-  width: 30%;
-  float: left;
-}
-
-.block_detail {
-  height: 150px;
-  width: 70%;
-  float: right;
+.hero_heading {
+  color: $color-white;
+  text-shadow: 2px 2px 2px $color-black;
 }

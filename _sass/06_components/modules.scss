@@ -1,13 +1,23 @@
 .module {
+  padding: 3%;
   width: 100%;
-  border: solid blue 2px;
 }
 
 .side_module {
   @extend .module;
+  padding: 5%;
   height: 550px;
   overflow: scroll;
 }
+
+hr.style6 {
+  border-top: 1px dotted $color-brand;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+
 
 img {
   max-width: 100%;
