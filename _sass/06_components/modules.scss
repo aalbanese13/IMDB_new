@@ -6,9 +6,20 @@
 .side_module {
   @extend .module;
   padding: 5%;
+  margin-top: 30px;
   height: 550px;
   overflow: scroll;
 }
+
+.side_module--small {
+  @extend .module;
+  padding: 3%;
+  margin-bottom: 50px;
+  height: 250px;
+  overflow: scroll;
+}
+
+
 
 hr.style6 {
   border-top: 1px dotted $color-brand;

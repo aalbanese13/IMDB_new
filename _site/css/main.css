@@ -806,6 +806,12 @@ header.post-header {
   background-size: cover;
   background-position: center; }
 
+.social_1 {
+  background: url("../assets/images/twitter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
 .block_thirds,
 .block_quarters {
   width: 100%;
@@ -857,6 +863,11 @@ header.post-header {
   width: 100%;
   margin-bottom: 20px; }
 
+.block_item--social {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 20px; }
+
 .block_poster {
   height: 150px;
   width: 30%;
@@ -876,13 +887,20 @@ header.post-header {
   .block_item--poster:nth-child(2), .block_item--poster:nth-child(3),
   .block_item--poster:nth-child(4) {
     display: none; } }
-.module, .side_module {
+.module, .side_module, .side_module--small {
   padding: 3%;
   width: 100%; }
 
 .side_module {
   padding: 5%;
+  margin-top: 30px;
   height: 550px;
+  overflow: scroll; }
+
+.side_module--small {
+  padding: 3%;
+  margin-bottom: 50px;
+  height: 250px;
   overflow: scroll; }
 
 hr.style6 {
