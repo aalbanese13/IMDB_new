@@ -788,6 +788,24 @@ header.post-header {
   background-size: cover;
   background-position: center; }
 
+.now_1 {
+  background: url("../assets/images/thor.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.now_2 {
+  background: url("../assets/images/justiceleague.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.now_3 {
+  background: url("../assets/images/ladybird.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
 .block_thirds,
 .block_quarters {
   width: 100%;
